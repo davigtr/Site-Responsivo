@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+#container{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background: rgb(255, 255, 255);
+    
+}
+
+header img{
+    margin: 5px auto 5px;
+    display: block;
+}
+
+nav{
+    text-align: center;
+    background: rgb(119, 0, 255);
+}
+nav ul{
+    padding: 10px;
+    list-style: none;
+}
+nav li{
+    margin: 20px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 19px;
+}
+#montanha{
+    background: rgb(255, 255, 255);
+    clear: both;
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+
+#montanha img{
+    display: none;
+}
+
+#montanha button:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(132, 0, 255);
+    transition: .2s;
+}
+#montanha h3{
+    padding-top: 25px;
+    color: rgb(98, 0, 255);
+}
+#montanha p{ 
+    color: rgb(98, 0, 255);  
+    margin: 10px 40px;
+}
+
+#montanha button{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 07px;
+    border: none;
+    background: rgb(0, 153, 255);
+    color: white;
+    width: 130px;
+    height: 50px;
+}
+
+#cards{
+    text-align: center;
+    background: rgb(240, 239, 239);
+}
+
+.cards h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(119, 0, 255);
+    margin: 5px;
+}
+
+.cards{
+    width: 400px;
+    line-height: 1.5em;
+    margin: 5px auto 2px;
+    padding-top: 15px;
+}
+
+#designg{
+    margin: 10px auto 0;
+    width: 400px;
+}
+
+.designg{
+    margin-top: 9px;
+    padding-bottom: 15px;
+}
+.designg h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(119, 0, 255);
+    margin: 5px;
+}
+
+.designg p{
+    line-height: 1.2em;
+}
+
+.designg button{
+    text-decoration: none;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 07px;
+    border: none;
+    background: rgb(0, 153, 255);
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+#nav-icons{
+    text-align: center;
+    margin-top: 15px;
+    background: #303D4C;
+}
+#nav-icons a{
+    margin-right: 7px;
+}
+
+footer{
+    padding: 10px;
+    line-height: 1em;
+    color: rgb(99, 100, 109);
+    text-align: center;
+    background: rgb(29, 33, 63);
+}
+
+footer p{
+    margin-top: 15px;
+}
+
+@media screen and (min-width:780px) {
+    #montanha{
+        margin: 0;
+        background: rgb(132, 0, 255);
+    }
+
+    #montanha img{
+        padding-top: 20px;
+        display: block;
+        margin: auto;
+    }
+    #montanha p{color: white;}
+    #montanha h3{color: white;}
+
+    #cards{
+        display: block;
+
+    }
+
+    .cards{
+
+        background: rgb(245, 245, 245);
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
+
+    #designg{
+        clear: both;
+        width: 90%;
+    }
+
+    #designg button{
+        float: right;
+    }
+
+    #nav-icons{
+        clear: both;
+    }
+}
+
+@media screen and (min-width: 991px) {
+
+    header{
+        background: rgb(255, 255, 255);
+        height: 80px;
+    }
+
+    #logo{
+        float: left;
+    }
+
+    nav{
+        float: right;
+        background: rgb(255, 255, 255);
+    }
+
+    nav ul{
+        padding: 0;
+        margin: 0;
+        float: right;
+    }
+    nav li{
+        padding: 0;
+        margin: 0 22px 0 25px;
+        display: inline;
+        float: right;
+    }
+    nav a{
+        line-height: 40px;
+        color: rgb(119, 0, 255);
+    }
+
+    #montanha{
+        height: auto;
+        clear: both;
+        background: white url(../img/bg_topo_1198x670.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #montanha img{
+        padding-top: 150px;
+        clear: both;
+        margin: auto;
+    }
+
+    .cards{
+
+        background: rgb(245, 245, 245);
+        width: 19%;
+        margin: 3%;
+        float: left;
+    }
+    
+}
+
+@media screen and (min-width:1199.98) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    
+    
+    header{
+        background: url(../img/logo_mob.png) no-repeat;
+        height: 63px;
+        background-color:rgb(235, 12, 12);
+    }
+    
+    header h1{
+        line-height: 8px;
+        float: left;
+        text-indent: -9999px;
+    }
+    
+    
+    header nav{
+        float: right;
+    }
+    
+    nav ul{
+        list-style: none;
+    }
+    nav li{
+        float: left;
+    }
+    
+    nav a{
+        text-decoration: none;
+        line-height: 63px;
+        margin-right: 50px;
+        color: rgb(90, 10, 143);
+    }
+    
+    nav a:hover{
+        color: rgb(118, 89, 145);
+        transition: .2s;
+    }
+    
+    #principal{
+        clear: both;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    #montanha{
+        background: url(../img/bg_topo_1600x1374.jpg);
+    }
+    
+    #montanha img{
+        display: inline-block;
+        margin: 300px auto 5px;
+    }
+    
+    #montanha button{
+        display: block;
+        text-transform: uppercase;
+        margin-top: 40px;
+        border-radius: 07px;
+        border: none;
+        background: rgb(0, 225, 255);
+        color: white;
+        width: 130px;
+        height: 50px;
+    }
+    
+    #montanha button:hover{
+        color: rgb(90, 10, 143);
+        background: rgb(255, 255, 255);
+        transition: .2s;
+    }
+    #montanha h3{ font-size: 1.5em;}
+    #montanha p{ font-size: 1em;
+        margin: 10px 40px;
+    }
+    
+    #cards{
+        display: inline-block;
+        width: 100%;
+        background: rgb(240, 238, 238);
+    }
+    
+    .cards{
+        text-align: center;
+        margin: 50px 30px 30px;
+        display: inline-block;
+        width: 270px;
+    }
+    
+    .cards img{
+        display: block;
+        margin: auto;
+    }
+    
+    .cards h3{
+        text-align: center;
+        letter-spacing: 5px;
+        font-size: 1.5em;
+        color: rgb(90, 10, 143);
+        margin: 5px 0 5px 0;
+    }
+    
+    #designg h3{
+        text-align: left;
+        letter-spacing: 5px;
+        font-size: 1.5em;
+        color: rgb(90, 10, 143);
+        margin: 5px 0 5px 0;
+    }
+    
+    .designg{
+        background-color: cadetblue;
+        padding: 2px;
+        box-sizing: border-box;
+        float: left;
+        background: rgba(226, 226, 226, 0.185);
+        display:block;
+        width: 600px;
+        margin: 15px 36px;
+    }
+    
+    #nav-icons{
+        clear: both;
+        text-align: center;
+        margin-top: 15px;
+        background: #303D4C;
+    }
+    #nav-icons a{
+        margin-right: 7px;
+    }
+    
+    footer{
+        clear: both;
+        line-height: 35px;
+        height: 79px;
+        background: rgb(29, 33, 63);
+        color: silver;
+        text-align: center;
+    }
+    
+    
+    
+    
+}
+
+
+
+
